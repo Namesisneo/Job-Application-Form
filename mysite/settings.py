@@ -55,7 +55,7 @@ ROOT_URLCONF = 'mysite.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [],  # Yaha par directory names mention kar sakte hai html files ke hai
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
